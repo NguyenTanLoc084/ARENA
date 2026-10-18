@@ -1,7 +1,3 @@
-# Nguyễn Lâm Chấn Nghi — phân tích, kiểm thử, vận hành/demo
-
-MSSV: 50.01.104.099. Phần code của Nghi là `tests/conftest.py`, `tests/test_application.py`; phần tài liệu gồm đối chiếu Lab, báo cáo kiểm thử, kịch bản demo và vận hành. Đây là phần kỹ thuật có mã chạy độc lập với dữ liệu demo thật của nhóm, không chỉ viết báo cáo.
-
 ## Cách làm
 
 1. Cài requirements-dev bằng Python3.11. Chạy `python -m pytest tests -q`. Đọc lỗi đầu tiên, tái hiện bằng tài khoản và dữ liệu tương ứng; không xóa assertion để làm test xanh.

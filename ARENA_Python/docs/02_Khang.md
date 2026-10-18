@@ -1,7 +1,3 @@
-# Phùng Đức Duy Khang — lịch, nhánh và kết quả
-
-MSSV: 50.01.104.071. Source đã tích hợp: `app/tournament.py`, `app/matches.py`. Tín sở hữu `event.html`/`match.html`; khi thay dữ liệu context hoặc tên form, Khang và Tín cập nhật cùng một nhánh công việc.
-
 ## Cách thực hiện
 
 1. Đăng nhập `btc`, mở Campus Cup, tạo lịch ở ngày chưa trùng Student League, chọn trọng tài. Bắt đầu giải rồi mở trận đầu và bấm Bắt đầu trận đấu.

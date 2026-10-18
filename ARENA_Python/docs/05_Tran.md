@@ -1,7 +1,3 @@
-# Văn Thị Huyền Trân — tài khoản, đội, đăng ký và báo cáo
-
-MSSV: 50.01.104.165. Source đã tích hợp: `app/auth.py`, `app/team.py`, `app/reports.py`. Phối hợp Tín cho các template tương ứng. Trân cũng tổng hợp phần nghiệp vụ trong báo cáo cuối kỳ; Nghi xác nhận bằng test.
-
 ## Cách làm phần tài khoản/đội
 
 1. Đăng ký một tài khoản thử mới. Vai trò luôn là student, không nhận role từ form. Mật khẩu băm scrypt bằng Werkzeug; không lưu mật khẩu rõ.

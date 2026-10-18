@@ -54,7 +54,7 @@ Trận: `scheduled → live → finished`; `bye` cho suất miễn vòng, không
 
 ## Ghép công việc của 5 người
 
-Bộ mã giao đã tích hợp. Khi tiếp tục phát triển: Lộc tạo nhánh chính; mỗi người tạo nhánh riêng từ cùng phiên bản. Cùng dùng Python 3.11 và requirements. Trân/Khang sửa service; Tín sở hữu template và CSS/JS; những thay đổi template của backend cần phối hợp với Tín. Nghi chạy kiểm thử và kịch bản demo; Lộc review và merge lần lượt.
+Bộ mã giao đã tích hợp. Khi tiếp tục phát triển: Lộc tạo nhánh chính; mỗi người tạo nhánh riêng từ cùng phiên bản. Cùng dùng Python 3.11 và requirements.
 
 Không gửi database, `.venv`, `instance/secret.key`, cache, tài khoản thật hoặc log chứa dữ liệu thật qua Git. Không ghi đè toàn bộ thư mục của người khác. Trước merge chạy `python -m pytest tests -q`; sau merge Lộc chạy lại. Chỉ sửa schema bằng một thay đổi phối hợp; `CREATE TABLE IF NOT EXISTS` không tự nâng cấp database cũ. Với bản nâng cấp schema, phải sao lưu và viết migration riêng trước khi chạy trên dữ liệu đang dùng.
 

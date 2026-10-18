@@ -1,7 +1,3 @@
-# Nguyễn Tấn Lộc — trưởng nhóm, dữ liệu và tích hợp
-
-MSSV: 50.01.104.084. Phần của Lộc đã được lập trình trong `app/__init__.py`, `app/db.py`, `app/schema.sql`, `app/admin.py`, `app/seed.py`, `run.py`, hai script khởi động và requirements. Lộc chịu trách nhiệm bản chạy cuối cùng, Nghi độc lập nghiệm thu.
-
 ## Cách học và tiếp tục làm phần này
 
 1. Chạy demo theo README, đăng nhập `admin`. Thêm một tướng thử; khóa/mở một tài khoản thử; xem nhật ký. Không tự khóa tài khoản admin đang dùng.

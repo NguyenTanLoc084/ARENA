@@ -1,7 +1,3 @@
-# Đặng Trung Tín — giao diện và trải nghiệm
-
-MSSV: 50.01.104.161. Phần đã code: toàn bộ `app/templates/`, `app/static/style.css`, `app/static/app.js`. Không cần framework frontend, npm hoặc build để chạy. Flask render HTML; JS hỗ trợ menu, tìm giải, chọn đội hình, chống bấm lặp và đồng bộ lịch.
-
 ## Cách triển khai tiếp
 
 1. Chạy ứng dụng, xem trang tổng quan ở màn hình rộng rồi thu nhỏ. Đọc `base.html`: sidebar/topbar, tài khoản, breadcrumb, flash, main và footer. Mọi trang kế thừa base để cùng một hệ màu/khoảng cách.
